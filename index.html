@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Validation: verify the authenticity of your document | IPBee GmbH</title>
+    <meta name="description" content="Validation. You have two options for verifying the authenticity of your document: you can upload your document or ..." />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Validation: verify the authenticity of your document | IPBee GmbH" />
+    <meta property="og:description" content="Validation. You have two options for verifying the authenticity of your document: you can upload your document or ..." />
+    <meta property="og:url" content="https://blockchain.ip-bee.de/en/validation/" />
+    <meta property="og:site_name" content="IPBee Blockchain Zeitstempel" />
+
+    <link rel="icon" type="image/png" href="img/favicon.jpg">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header" id="header">
+    <div class="container">
+        <div class="lang">
+            <a id="de" class="lang__item germany">
+                <img src="img/germany.png" alt="Germany">
+            </a>
+            <a id="en" class="lang__item english">
+                <img src="img/english.png" alt="English">
+            </a>
+            <a id="ko" class="lang__item korea">
+                <img src="img/korea.png" alt="Korea">
+            </a>
+        </div>
+        <div class="offer">
+            <div class="header__img">
+                <img src="img/about.png" alt="Картинка">
+            </div>
+            <h2 class="header__title section-title uppercase language" key="header-title">
+                validation
+            </h2>
+            <h4 class="header__intro language" key="header-intro">
+                There are two options to validate the authenticity of your document:
+            </h4>
+            <p class="header__text language" key="header-text">
+                You can upload your document or enter the Hash-Code, Transaction ID or the Private Key privy to you.
+            </p>
+            <a href="https://blockchain.ip-bee.de/en/" target="_blank" class="header__link language" key="header-link">Further information</a>
+            <input class="header__input" type="text">
+        </div>
+        <div class="btns">
+            <h3 class="h3 language" key="header-btn-title">Please choose one of the options:</h3>
+            <div class="flex">
+                <a href="#upload" class="flex__btn_one btn uppercase language" key="header-btn-one">upload document</a>
+                <a href="#code" class="flex__btn_two btn uppercase language" key="header-btn-two">enter code</a>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="upload" id="upload">
+    <div class="container">
+        <div class="upload__img animated top">
+            <img src="img/about.png" alt="Image">
+        </div>
+        <h2 class="upload__title section-title uppercase language" key="upload-title">
+            upload document
+        </h2>
+        <div class="choose">
+            <h4 class="choose__title header__intro language" key="upload-intro">
+                Please select the original file:
+            </h4>
+            <input type="file" class="choose__input">
+        </div>
+        <div class="upload__btn">
+            <a class="upload-btn__link uppercase language" key="upload-btn">validate</a>
+        </div>
+    </div>
+</section>
+<section class="code" id="code">
+    <div class="container">
+        <div class="code__img animated top">
+            <img src="img/about.png" alt="Image">
+        </div>
+        <div class="code__h2">
+            <h2 class="code__title section-title uppercase language" key="code-title">enter code</h2>
+        </div>
+        <div class="code__form">
+            <input type="text" class="code__input language" name="hash" placeholder="Document HASH" required
+                   id="hash-validate-input">
+        </div>
+        <div class="code__btn">
+            <a class="code__a uppercase language" key="code-btn" id="hash-validate-btn">validate</a>
+        </div>
+    </div>
+</section>
+<footer class="footer" id="footer">
+    <div class="container">
+        <div class="footer-container">
+            <div class="footer__wrap">
+                <a href="https://blockchain.ip-bee.de/en/" target="_blank" class="footer__link uppercase">© 2022 ipbee gmbh</a>
+                <span>|</span>
+                <a href="https://blockchain.ip-bee.de/en/imprint/" target="_blank" class="footer__link uppercase language" key="footer-imprint">imprint</a>
+                <span>|</span>
+                <a href="https://blockchain.ip-bee.de/en/privacy-policy/" target="_blank" class="footer__link uppercase language" key="footer-policy">privacy policy</a>
+            </div>
+            <div class="footer__socials">
+                <div class="footer-socials__one">
+                    <a href="https://www.facebook.com/IPBeee/" target="_blank" class="footer-socials__link_first">
+                        <img src="img/facebook.png" class="socials-item" alt="Facebook">
+                    </a>
+                </div>
+                <div class="footer-socials__one">
+                    <a href="https://www.instagram.com/ipbee.de/" target="_blank" class="footer-socials__link_second">
+                        <img src="img/instagram.png" class="socials-item" alt="Instagram">
+                    </a>
+                </div>
+                <div class="footer-socials__one">
+                    <a href="https://www.linkedin.com/company/ipbee/" target="_blank" class="footer-socials__link_third">
+                        <img src="img/linkedin.png" class="socials-item" alt="Linkedin">
+                    </a>
+                </div>
+                <div class="footer-socials__one">
+                    <a href=https://www.xing.com/pages/ipbeegmbh" target="_blank" class="footer-socials__link_fourth">
+                        <img src="img/xing-logo.png" class="socials-item" alt="Xing">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/main.js"></script>
+<script type="application/javascript">
+    $("#hash-validate-btn").click(() => {
+        let hash = $("#hash-validate-input")[0].value
+        location.href = "doc.html#"+hash
+    })
+</script>
+</body>
+</html>
